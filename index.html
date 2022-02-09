@@ -20,13 +20,22 @@
     ></script>
   </head>
   <body>
-    <h1 id="title">Hello World</h1>
+    <h1 id="count" class="text-center mt-5">0</h1>
     <div class="text-center">
-      <button id="prime" class="buton-test mt-5 p-5">Button - 1</button>
-      <br />
-      <button class="buton-test mt-5 p-5">Button - 2</button>
-      <br />
-      <button class="buton-test mt-5 p-5">Button - 3</button>
+      <button
+        onclick="add()"
+        id="add"
+        class="btn btn-primary buton-test mt-5 p-5"
+      >
+        +
+      </button>
+      <button
+        onclick="minus()"
+        id="minus"
+        class="btn btn-danger buton-test mt-5 p-5"
+      >
+        -
+      </button>
     </div>
 
     <script src="app.js"></script>
